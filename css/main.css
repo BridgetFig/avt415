@@ -1,2 +1,7 @@
-h1 { color: red;
-font-weight:bold }
+h1 { font-family: helvetica; font-weight:bold;
+	size:180; text-align:center; color: hotpink; }
+h2 {font-family: helvetica ; font-weight: regular; font-size: 70;  }
+
+h3 {font-family:helvetica; font-weight:regular; font-size: 50}
+
+body { font-family:helvetica; font-size: 20; font-weight: lighter;}
