@@ -1,17 +1,44 @@
-body {background-color: pink }
-
+body {
+	background-color: #FF70A6;
+}
 h1 {
 	font-family: sans-serif;
-	font-size: 5vw;
-	font-size: 100px;
+	font-size: 150px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: white;
+	color: #FFD670;
 	text-align: center;
-	margin-top: 35vh;}
-
-
 }
-@media screen and (min-width:768px) {/* styles for screen sizes 768px and above */
-body {background-color: red;}
+h2 {
+	font-family: sans-serif;
+	font-size: 70px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #FF70A6;
+	text-align: center;
+	margin-top: 30vh;
+}
+	
+img{ max-width: 100% 
+}
+
+
+
+@media screen and (max-width: 768px) {
+	body {
+		background-color: #FFD670;
+	}
+	h1 { display: none;
+	}
+
+	img { display:none; }
+
+	
+	
+}
+@media screen and (min-width: 768px) {
+	h1 { display: block;
+	}
+	h2{ display:none; }
+
 }
